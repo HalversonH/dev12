@@ -47,7 +47,7 @@ function App() {
     // After 6 seconds, stop the confetti
     setTimeout(() => {
       setShowConfetti(false)
-    }, 6000)
+    }, 8000)
   }
 
   const handlePhotoClick = (photo: Photo, index: number) => {
@@ -118,7 +118,7 @@ function App() {
                 Nossos Momentos Especiais
               </h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-8">
-                Deslize para ver mais fotos e clique para ver em alta resolução
+                Deslize para ver mais fotos e clique para ver melhor❤️
               </p>
             </div>
 
@@ -137,7 +137,7 @@ function App() {
               <div className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-lg p-6 shadow-md">
                 <h3 className="text-xl font-semibold text-pink-600 dark:text-pink-400 mb-3">Nosso Primeiro Ano</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Cada momento ao seu lado foi especial. Desde nosso primeiro encontro até nossa primeira viagem juntos.
+                  Cada momento ao seu lado foi especial. Desde nosso primeiro encontro até nossa saidinhas para festas de fim de ano.
                 </p>
               </div>
 
@@ -151,7 +151,7 @@ function App() {
               <div className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-lg p-6 shadow-md">
                 <h3 className="text-xl font-semibold text-pink-600 dark:text-pink-400 mb-3">Nosso Terceiro Ano</h3>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Três anos de amor, respeito e companheirismo. Que venham muitos mais anos juntos!
+                  Três anos de amor, carinho e companheirismo. Crescemos juntos e ja estamos marcando ate viagem junto!! Que venham muitos mais anos!
                 </p>
               </div>
             </div>
@@ -165,8 +165,7 @@ function App() {
                   window.scrollTo(0, 0)
                 }}
               >
-                Voltar ao Início
-              </Button>
+Recomeço?</Button>
             </div>
           </motion.div>
         )}
