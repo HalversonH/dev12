@@ -223,7 +223,7 @@ export default function PhotoModal({ photo, isOpen, onClose }: PhotoModalProps) 
               >
                 <img
                   ref={imageRef}
-                  src={photo.url || "/placeholder.svg"}
+                  src={photo.url || "/dev12/placeholder.svg"}
                   alt={`Photo from ${photo.date}`}
                   className="max-h-[80vh] object-contain"
                   onLoad={() => {
@@ -233,7 +233,7 @@ export default function PhotoModal({ photo, isOpen, onClose }: PhotoModalProps) 
                   onError={(e) => {
                     console.error("Image failed to load:", photo.url)
                     setIsLoading(false)
-                    ;(e.target as HTMLImageElement).src = "/placeholder.svg?height=800&width=800"
+                    ;(e.target as HTMLImageElement).src = "/dev12/placeholder.svg?height=800&width=800"
                   }}
                 />
               </div>
