@@ -4,28 +4,28 @@ import type { Photo } from "../types"
 export const photos: Photo[] = [
   {
     id: 1,
-    url: "dev12/images/foto1.jpg",
+    url: "/dev12/images/foto1.jpg",
     highResUrl: "dev12/images/foto1.jpg",
     date: "Junho 2021",
     comment: "Nosso primeiro encontro. Lembro como se fosse ontem!",
   },
   {
     id: 2,
-    url: "dev12/images/foto2.jpg",
+    url: "/dev12/images/foto2.jpg",
     highResUrl: "dev12/images/foto2.jpg?couple=2",
     date: "Agosto 2021",
     comment: "Nossa primeira viagem juntos. Que aventura incrível!",
   },
   {
     id: 3,
-    url: "dev12/images/foto3.jpg?couple=3",
-    highResUrl: "/images/foto3.jpg",
+    url: "/dev12/images/foto3.jpg?couple=3",
+    highResUrl: "dev12/images/foto3.jpg",
     date: "Outubro 2021",
     comment: "Aquele jantar romântico à luz de velas. Você estava linda!",
   },
   {
     id: 4,
-    url: "/images/foto4.jpg?couple=4",
+    url: "/dev12/images/foto4.jpg?couple=4",
     date: "Dezembro 2021",
     comment: "Nosso primeiro Natal juntos. Momentos inesquecíveis!",
   },
