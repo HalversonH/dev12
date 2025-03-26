@@ -175,7 +175,7 @@ function App() {
       {isMounted && (
         <>
           <PhotoModal photo={selectedPhoto} isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
-          <SpotifyPlayer playlistId="37i9dQZF1DX0MLFaUdXnjA" theme={showAlbum ? "black" : "white"} />
+          <SpotifyPlayer playlistId="123BkVN63VmkQDQWv56VHT" theme={showAlbum ? "black" : "white"} />
         </>
       )}
     </div>
