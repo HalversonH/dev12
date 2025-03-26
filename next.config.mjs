@@ -9,8 +9,8 @@ try {
 const nextConfig = {
   output: "export",
   distDir: "dist",
-  basePath: process.env.NODE_ENV === "production" ? "/3anos-vo" : "", // Replace with your repo name
-  assetPrefix: process.env.NODE_ENV === "production" ? "/3anos-vo/" : "", // Replace with your repo name
+  basePath: process.env.NODE_ENV === "production" ? "/dev12" : "", // Replace with your repo name
+  assetPrefix: process.env.NODE_ENV === "production" ? "/dev12/" : "", // Replace with your repo name
   eslint: {
     ignoreDuringBuilds: true,
   },
