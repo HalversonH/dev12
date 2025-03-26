@@ -13,7 +13,7 @@ import type { Photo } from "./types"
 
 
 // Add this at the top of your App.tsx file
-const basePath = process.env.NODE_ENV === "production" ? "/3anos-vo" : ""
+const basePath = process.env.NODE_ENV === "production" ? "/dev12" : ""
 
 // You can also create a helper function:
 function getImagePath(path: string): string {
