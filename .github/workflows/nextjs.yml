@@ -80,8 +80,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
-      - name: Copy images
-        run: cp -r public/images dist/images
 
   # Deployment job
   deploy:
